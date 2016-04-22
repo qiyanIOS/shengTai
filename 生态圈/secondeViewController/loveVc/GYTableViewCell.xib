@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9532" systemVersion="14F1605" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="100" id="KGk-i7-Jjw" customClass="GYTableViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="100"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="99.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="js.png" translatesAutoresizingMaskIntoConstraints="NO" id="CE7-De-JZg">
+                        <rect key="frame" x="10" y="10" width="110" height="79.5"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="110" id="Kkb-Kx-lix"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="助力江西山区贫困小学建设" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ch3-gU-k5A">
+                        <rect key="frame" x="130" y="15" width="180" height="20"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="20" id="Umh-8p-gtz"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="圆他们一个上学梦" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="i8D-bD-8aJ">
+                        <rect key="frame" x="130" y="40" width="120" height="20"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="20" id="oH2-7c-5P0"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                        <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="已有4561人点量爱心" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="osl-aC-4kQ">
+                        <rect key="frame" x="130" y="65" width="120" height="20"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="20" id="8cD-sB-Kqv"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                        <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mbi-id-ksK">
+                        <rect key="frame" x="250" y="35" width="60" height="60"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="60" id="1Sb-Rj-dP3"/>
+                            <constraint firstAttribute="height" constant="60" id="m5c-5P-zxu"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                        <inset key="titleEdgeInsets" minX="0.0" minY="30" maxX="0.0" maxY="0.0"/>
+                        <state key="normal">
+                            <color key="titleColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                        </state>
+                        <state key="selected" title="已点亮" image="loveSelected.png"/>
+                    </button>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="CE7-De-JZg" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="10" id="3zC-l0-bTD"/>
+                    <constraint firstItem="Ch3-gU-k5A" firstAttribute="leading" secondItem="CE7-De-JZg" secondAttribute="trailing" constant="10" id="5uH-4H-o7D"/>
+                    <constraint firstAttribute="trailing" secondItem="Ch3-gU-k5A" secondAttribute="trailing" constant="10" id="ChV-wC-VUY"/>
+                    <constraint firstAttribute="trailing" secondItem="mbi-id-ksK" secondAttribute="trailing" constant="10" id="GaT-Mf-Fam"/>
+                    <constraint firstItem="i8D-bD-8aJ" firstAttribute="leading" secondItem="CE7-De-JZg" secondAttribute="trailing" constant="10" id="Juh-ZV-0Td"/>
+                    <constraint firstItem="mbi-id-ksK" firstAttribute="leading" secondItem="osl-aC-4kQ" secondAttribute="trailing" id="T9V-tB-cmf"/>
+                    <constraint firstItem="mbi-id-ksK" firstAttribute="leading" secondItem="i8D-bD-8aJ" secondAttribute="trailing" id="bkP-qy-K9D"/>
+                    <constraint firstAttribute="bottom" secondItem="CE7-De-JZg" secondAttribute="bottom" constant="10" id="ezA-wv-TY0"/>
+                    <constraint firstItem="osl-aC-4kQ" firstAttribute="top" secondItem="i8D-bD-8aJ" secondAttribute="bottom" constant="5" id="g1e-0T-sDw"/>
+                    <constraint firstItem="osl-aC-4kQ" firstAttribute="leading" secondItem="CE7-De-JZg" secondAttribute="trailing" constant="10" id="lUE-15-3wf"/>
+                    <constraint firstItem="mbi-id-ksK" firstAttribute="top" secondItem="Ch3-gU-k5A" secondAttribute="bottom" id="mew-GM-tax"/>
+                    <constraint firstItem="i8D-bD-8aJ" firstAttribute="top" secondItem="Ch3-gU-k5A" secondAttribute="bottom" constant="5" id="uPA-av-54H"/>
+                    <constraint firstItem="CE7-De-JZg" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="10" id="w7K-ZU-NRR"/>
+                    <constraint firstItem="Ch3-gU-k5A" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="15" id="xnJ-jz-n03"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="loveBtn" destination="mbi-id-ksK" id="zpR-o7-Uuk"/>
+            </connections>
+            <point key="canvasLocation" x="196" y="242"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="js.png" width="391" height="220"/>
+        <image name="loveSelected.png" width="30" height="30"/>
+    </resources>
+</document>

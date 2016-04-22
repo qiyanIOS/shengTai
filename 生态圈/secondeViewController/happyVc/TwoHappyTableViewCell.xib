@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9532" systemVersion="14F1605" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="98" id="KGk-i7-Jjw" customClass="TwoHappyTableViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="98"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="97.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="u2.png" translatesAutoresizingMaskIntoConstraints="NO" id="WUQ-CV-bYH">
+                        <rect key="frame" x="10" y="10" width="110" height="77.5"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="110" id="L2z-v2-5MW"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="恭喜周小晶在&quot;2048&quot;游戏排名第一" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="K5V-eu-Pys">
+                        <rect key="frame" x="130" y="10" width="190" height="20"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="20" id="tvc-0h-XQk"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="&quot;2048&quot;是一款益智休闲类的小游戏，是一款益智休闲的小游戏" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AKn-KT-Bl7">
+                        <rect key="frame" x="130" y="35" width="185" height="31.5"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                        <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="AKn-KT-Bl7" secondAttribute="trailing" constant="5" id="2Ne-pm-DGg"/>
+                    <constraint firstAttribute="bottom" secondItem="WUQ-CV-bYH" secondAttribute="bottom" constant="10" id="BFA-w2-AvQ"/>
+                    <constraint firstItem="AKn-KT-Bl7" firstAttribute="leading" secondItem="WUQ-CV-bYH" secondAttribute="trailing" constant="10" id="FHi-Cf-rcK"/>
+                    <constraint firstItem="K5V-eu-Pys" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="10" id="Nch-ne-Ape"/>
+                    <constraint firstAttribute="trailing" secondItem="K5V-eu-Pys" secondAttribute="trailing" id="RRA-N7-fCt"/>
+                    <constraint firstItem="WUQ-CV-bYH" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="10" id="Sis-KZ-Uq0"/>
+                    <constraint firstItem="K5V-eu-Pys" firstAttribute="leading" secondItem="WUQ-CV-bYH" secondAttribute="trailing" constant="10" id="Wb0-U3-j3G"/>
+                    <constraint firstItem="AKn-KT-Bl7" firstAttribute="top" secondItem="K5V-eu-Pys" secondAttribute="bottom" constant="5" id="n4F-uv-V8R"/>
+                    <constraint firstItem="WUQ-CV-bYH" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="10" id="w3x-ck-TpE"/>
+                </constraints>
+            </tableViewCellContentView>
+            <point key="canvasLocation" x="269" y="363"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="u2.png" width="620" height="290"/>
+    </resources>
+</document>

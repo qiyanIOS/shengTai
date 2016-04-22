@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9532" systemVersion="14F1605" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="91" id="KGk-i7-Jjw" customClass="GongCTableViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="91"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="90.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="mj.png" translatesAutoresizingMaskIntoConstraints="NO" id="4rY-gm-Jjh">
+                        <rect key="frame" x="10" y="10" width="110" height="70.5"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="110" id="8rl-i9-rMd"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="洛可可 美睫美甲 单人蔻丹美甲套餐" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Obq-kO-pj0">
+                        <rect key="frame" x="130" y="10" width="180" height="20"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="20" id="tml-RJ-fAV"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="wx.png" translatesAutoresizingMaskIntoConstraints="NO" id="ZSy-2E-L9I">
+                        <rect key="frame" x="130" y="35" width="120" height="20"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="120" id="fRv-Xl-G2s"/>
+                            <constraint firstAttribute="height" constant="20" id="kaI-Ec-c8f"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="龙首村向西100米" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ejR-hn-dCy">
+                        <rect key="frame" x="130" y="60" width="180" height="15"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="15" id="S2O-EX-khJ"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                        <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="ejR-hn-dCy" secondAttribute="trailing" constant="10" id="GJK-6X-sKz"/>
+                    <constraint firstAttribute="trailing" secondItem="Obq-kO-pj0" secondAttribute="trailing" constant="10" id="GcL-W3-Cyc"/>
+                    <constraint firstItem="ZSy-2E-L9I" firstAttribute="leading" secondItem="4rY-gm-Jjh" secondAttribute="trailing" constant="10" id="NDR-Rm-Xa0"/>
+                    <constraint firstAttribute="bottom" secondItem="4rY-gm-Jjh" secondAttribute="bottom" constant="10" id="VPO-Wg-GdQ"/>
+                    <constraint firstItem="Obq-kO-pj0" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="10" id="VeL-4s-Oqi"/>
+                    <constraint firstItem="ejR-hn-dCy" firstAttribute="leading" secondItem="4rY-gm-Jjh" secondAttribute="trailing" constant="10" id="X49-Lk-nEm"/>
+                    <constraint firstItem="4rY-gm-Jjh" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="10" id="fOL-R5-pkw"/>
+                    <constraint firstItem="4rY-gm-Jjh" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="10" id="lvR-va-a3Z"/>
+                    <constraint firstItem="ZSy-2E-L9I" firstAttribute="top" secondItem="Obq-kO-pj0" secondAttribute="bottom" constant="5" id="p5e-9x-TqR"/>
+                    <constraint firstItem="Obq-kO-pj0" firstAttribute="leading" secondItem="4rY-gm-Jjh" secondAttribute="trailing" constant="10" id="q0X-dU-Yad"/>
+                    <constraint firstItem="ejR-hn-dCy" firstAttribute="top" secondItem="ZSy-2E-L9I" secondAttribute="bottom" constant="5" id="r11-iS-ydS"/>
+                </constraints>
+            </tableViewCellContentView>
+            <point key="canvasLocation" x="313" y="298.5"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="mj.png" width="702" height="702"/>
+        <image name="wx.png" width="932" height="142"/>
+    </resources>
+</document>
